@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
-
+    <link rel="shortcut icon" href="/favicon.ico">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -37,10 +37,20 @@
           <h1>About Me</h1>
           I'm a software engineer that loves playing in the cloud.  I've mostly worked on full stack security focused software.
           <h2>Contact</h2>
-          <a target="_new" href="https://twitter.com/keithballdotnet">Twitter</a>
+          <img src="/images/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> <a target="_new" href="https://twitter.com/keithballdotnet">@keithballdotnet</a> on Twitter
         </aside>
       </div>
     </div>
+
+    {% unless page.no_footer %}
+     <footer>
+       <p>
+         <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/images/cc-cc.png" class="cc">
+         <img src="/images/cc-by.png" class="cc"></a>
+         This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+       </p>
+     </footer>
+     {% endunless %}
 
   </body>
 </html>
