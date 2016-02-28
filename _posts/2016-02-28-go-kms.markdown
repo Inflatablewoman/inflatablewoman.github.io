@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Go-KMS"
+date:   2016-02-27 15:40:56
+categories: golang
+---
+
+### What is GO-KMS?
+
+GO-KMS is a encryption Key Management Service in GO.  Modelled extensively on AWS KMS behaviour, the API is used for symmetrical key management.  It offers Cryptography as a Service (CaaS) functionality such as encryption/decryption/reencryption without exposing keys.
+
+The crypto provider is based on [AES](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard) and a key size of 256bits using the [GCM cipher](http://en.wikipedia.org/wiki/Galois/Counter_Mode) to provide confidentiality as well as authentication.  
+
+Keys are encrypted and stored on disk, using a master key which is derived using [PBKDF2](http://en.wikipedia.org/wiki/PBKDF2) from a passphrase when run in pure software mode.  It is also possible to combine GO-KMS with a [Hardware Security Module (HSM)](http://en.wikipedia.org/wiki/Hardware_security_module) which can be leveraged to create and encrypt a master key using the HSM for generation and protection.  HSM support is done using the [PKCS#11](http://en.wikipedia.org/wiki/PKCS_11) standard.
+
+GO-KMS authentication is done using [HMAC-SHA256](http://en.wikipedia.org/wiki/Hash-based_message_authentication_code) over HTTPS.  
+
+{% highlight go %}
+// AesGCMEncrypt Encrypt data using AES with the GCM cipher mode (Gives Confidentiality and Authenticity)
+func AesGCMEncrypt(plaintext []byte, key []byte) ([]byte, error) {
+	block, err := aes.NewCipher(key)
+	if err != nil {
+		return nil, err
+	}
+
+	gcm, err := cipher.NewGCM(block)
+	if err != nil {
+		return nil, err
+	}
+
+	nonce := make([]byte, gcm.NonceSize())
+	if _, err := rand.Read(nonce); err != nil {
+		return nil, err
+	}
+
+	ciphertext := gcm.Seal(nil, nonce, plaintext, nil)
+
+	return append(nonce, ciphertext...), nil
+}
+{% endhighlight %}
+
+Checkout [go-kms on github][gokms] for more info.
+
+[gokms]: https://github.com/keithballdotnet/go-kms
