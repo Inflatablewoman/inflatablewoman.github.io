@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Dream Job"
+date:   2016-02-28 10:14:00
+categories: job
+---
+
+I like this...
+
+![Image of Dream Job](/images/dreamjob.png)
