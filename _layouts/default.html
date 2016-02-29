@@ -1,67 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
-    <link rel="shortcut icon" href="/favicon.ico">
-    <!--[if lt IE 9]>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
+  <link rel="shortcut icon" href="/favicon.ico">
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title> {{ page.title }} </title>
-  </head>
+  <title> {{ page.title }} </title>
+</head>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1> {{ site.name }} </h1>
-        <h2>Some blatherings by Keith Ball</h2>
-        <a target="_new" href="https://github.com/keithballdotnet" class="button"><small>View my projects on</small> GitHub</a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-
-          {{ content }}
-
-        </section>
-
-        <aside id="sidebar">
-          <h1>About Me</h1>
-          I'm a software engineer that loves playing in the cloud.  I've mostly worked on full stack security focused software.
-          <h2>Contact</h2>
-          <img src="/images/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> <a target="_new" href="https://twitter.com/keithballdotnet">@keithballdotnet</a> on Twitter
-        </aside>
-      </div>
+<body>
+  <header>
+    <div class="inner">
+      <h1> {{ site.name }} </h1>
+      <h2>Some blatherings by Keith Ball</h2>
+      <a target="_new" href="https://github.com/keithballdotnet" class="button"><small>View my projects on</small> GitHub</a>
     </div>
+  </header>
 
-    {% unless page.no_footer %}
-     <footer>
-       <p>
-         <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/images/cc-cc.png" class="cc">
-         <img src="/images/cc-by.png" class="cc"></a>
-         This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
-       </p>
-     </footer>
-     {% endunless %}
+  <div id="content-wrapper">
+    <div class="inner clearfix">
+      <section id="main-content">
 
-     <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        {{ content }}
 
-       ga('create', 'UA-74437121-1', 'auto');
-       ga('send', 'pageview');
+      </section>
 
-     </script>
+      <aside id="sidebar">
+        <h1>About Me</h1> I'm a software engineer that loves playing in the cloud. I've mostly worked on full stack security focused software.
+        <h2>Contact</h2>
+        <img src="/images/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> <a target="_new" href="https://twitter.com/keithballdotnet">@keithballdotnet</a> on Twitter
 
-  </body>
+        <br/>
+        <br/>
+
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Sidebar -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:120px;height:240px"
+             data-ad-client="ca-pub-9402662046461172"
+             data-ad-slot="4699187649"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+      </aside>
+    </div>
+  </div>
+
+  {% unless page.no_footer %}
+  <footer>
+    <p>
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/images/cc-cc.png" class="cc">
+        <img src="/images/cc-by.png" class="cc"></a>
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+    </p>
+  </footer>
+  {% endunless %}
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-74437121-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
 </html>
