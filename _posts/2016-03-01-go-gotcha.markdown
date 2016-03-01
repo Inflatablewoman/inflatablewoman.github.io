@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Go Gotcha"
+date:   2016-03-01 10:14:00
+categories: golang
+---
+
+Go is lexically scoped...
+
+What is wrong with the following code?
+{% highlight go %}
+// Item
+var item *Item
+
+itemID := u.Query().Get("itemID")
+
+if itemID != "" {
+item, err := repository.GetItem(itemID)
+}
+
+log.Printf("The item %v", item)
+{% endhighlight %}
+
+The code shows how Item is being redeclared in the scope of the if.
+
+Further reading here:
+[Declarations and scope](https://golang.org/ref/spec#Declarations_and_scope)
