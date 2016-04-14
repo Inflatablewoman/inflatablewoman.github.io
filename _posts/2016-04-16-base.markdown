@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Base"
+date:   2016-04-16 14:30
+categories: thoughts
+---
+
+"If human nature were not base, but thoroughly honourable, we should in every debate have no other aim than the discovery of truth" - *Arthur Schopenhauer*
