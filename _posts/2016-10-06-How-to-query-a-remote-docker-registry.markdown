@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to query a remote docker registry"
-date:   2016-04-14 14:30:00
+date:   2016-10-09 07:00:00
 categories: thoughts
 ---
 
