@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/inflatablewoman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.keithball.net
+  * I am inflatablewoman (https://keybase.io/inflatablewoman) on keybase.
+  * I have a public key with fingerprint 4460 CAD5 7675 8A14 907E  5068 4233 B94E 0D3A A648
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01208ccccdf861f52292c3da595a0c8d1ace245bcfda8aa36794250644636dca66e30a",
+            "fingerprint": "4460cad576758a14907e50684233b94e0d3aa648",
+            "host": "keybase.io",
+            "key_id": "4233b94e0d3aa648",
+            "kid": "01013dae46ea07fe60a5725c47ce65bb0316a7c0c4dab769f618429824da353811c30a",
+            "uid": "a47e0b10ee25067dfadefb42f69e0619",
+            "username": "inflatablewoman"
+        },
+        "service": {
+            "hostname": "www.keithball.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1475848085,
+    "expire_in": 157680000,
+    "prev": "33e9cec5fe0029c46a733d0b525d346fa246027ce62fa8ef6ff964f15bca808d",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMN5AnicbVJ/UFRVGF1+rBBCUVGO2mQ9Ucohuu/nvrfWFAaC0AADgxgR233v3be8
+YXm77S5sSCtpCUkEJKBBhVoIwoxazJRprBPCFEwCiRSRuVCSSYZpQBSJdZf0v+4/
+d+79zjnf+c69PWEBuhC/DfTxlDBjS6Lfl13vF+qy5lrrSwjRKhcTxhIiHy1uyCIj
+h9OUr8qEkQAkBXgJL1nhOVJhKUqgJFqGrMBCIPEyCSVEMawoKTLkIaQ5g8BQLOAY
+hqM5WYIch2gAiWhCUTUzstvsqubEsrgMJCizBs7A8pBkBGBAmMUzFE2LAoOATEPI
+MTwm5lkdPgY2J0IHilGt+A4fTIv2/gd/yzcgsU3EcAgCg4I4AFkDxUqMQUIcK4qA
+JjlokIDEyFA0cILCkbi5wFP4TLM0T5LSf74LF+UgY0BAJAFCvuEMsgJlpIgMpXAC
+Ahwp+IAOZNdgAcJoVVMs0AlFC3JZC6BGuKMJXCxSJeTL1zfQTaDL5YrJR6ozT4QW
+S4yGnFjHZrc6rZLVgst5TqfN6GM7i22LcCSabgqZRFWTcaSYUITsDtWqEUYSIyWn
+6lMmGZwrwwOejSbQizbVjkyqD4ED5wFevjaoCEvSNBIkJLEKAoASJAaHQtMyEFmK
+lWmGUyCFX4ryhUYpkEcKpygCxygkfnGI5WXCN9oLmhVrk9gnNGNNh2rWoLPQjgj3
+qa6cQJ1fiG6J3t/313Qht4Xf+oHozTv+SQBxn+0Iz/x9/yOhif1VS6orIpr6yvai
+hPS/Q0CN49jy4u61b62sfKdQXKMbSB9pbv2moXLQz3M5KKmltExLq8n16GdTR5Lj
+77p367TXFD9XXv+XvNRKtvWfdL+8pWN6S3h5+N2mvJ9SMw9Hif3Hs7/oX1fVThs7
+Q6rp2oxrgcvCJsaH99++auAT71B3ZKonPdI8XP1Y5oky3eyVoeiSmJ0grdb43bug
+T3tu10HtxoOOeuZ8wy8LOUHHkOR+uzf5D3/it6TSq41/nt4btS9C+To3PTJKb3ig
+jTmaKmWEWfwTr175dc+BFa3lQaHJb6QkenuRa2q8we/69BFb7Hzu4Q9bSy9ke3ZP
+7/pYOBt3pl+3JmLzQr65cSyudDnx7M8bZ6/1r/806dXPJ3s6H3/9QErOwbGLg1MP
+P2qqjunZ9kTnjo5m1LE1dX71WPc5b93ZnvCuCv1Cods8OlhbdbnnaO1D9padUX6T
+VMCl63uibzyp/2qqhHNOP3O6dFXYTEjv08+bJ7ObD12siputS7n/e/JkfuboprA7
+42Nb9vUdCZ7ZmLbdsTZwgzcm3js3el7vafpxovOjbf4Fm910ynr3eytq4u8LLq5t
+jFs6UnHoHi09pa2st31mWWVG9crJS7HBBaEBZzadmm7KuVC//Ye6p+r1CeMfvJSV
+5fIMtL/ybdFrE0PndqeuGx+eP2EOWP0vyJPHhA==
+=g3Ec
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/inflatablewoman
+
+==================================================================
