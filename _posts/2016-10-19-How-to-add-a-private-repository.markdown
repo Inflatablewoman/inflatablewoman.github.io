@@ -5,7 +5,23 @@ date:   2016-10-19 07:00:00
 categories: k8s
 ---
 
-Adding a private reigstry for use in k8s.  Hosted on ubunutu.
+If you are getting problem with ImagePullBackOff and the detailed error:
+
+Failed to pull image "{MYREPO/myservice}": Error response from daemon: {"message":"Get https://{SERVER}:{PORT}/v1/_ping: x509: certificate signed by unknown authority"}
+
+There are a couple of things you can do.  The easy way:
+
+{% highlight bash %}
+vi /etc/docker/daemon.json
+{% endhighlight %}
+
+{% highlight json %}
+{
+  "insecure-registries": ["{SERVER}:{PORT}"]
+}
+{% endhighlight %}
+
+Or add the certifcate to the trusted list.  This example is for ubuntu.
 
 Add the secret
 {% highlight bash %}
