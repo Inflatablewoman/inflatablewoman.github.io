@@ -21,6 +21,10 @@ vi /etc/docker/daemon.json
 }
 {% endhighlight %}
 
+{% highlight bash %}
+systemctl restart docker
+{% endhighlight %}
+
 Or add the certifcate to the trusted list.  This example is for ubuntu.
 
 Add the secret
