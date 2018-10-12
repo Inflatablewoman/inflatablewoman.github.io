@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//contactking//vCardConverter for Excel 3.0
+N;charset=utf-8:Test;Keith;;;
+FN;charset=utf-8:Keith Test
+ORG;charset=utf-8:;;
+TITLE;charset=utf-8:
+TEL;TYPE=HOME;TYPE=VOICE:+99977788820
+TEL;TYPE=WORK;TYPE=VOICE:
+TEL;TYPE=HOME;TYPE=FAX:
+TEL;TYPE=WORK;TYPE=FAX:
+TEL;TYPE=CELL;TYPE=VOICE:
+EMAIL;TYPE=INTERNET;TYPE=WORK:
+EMAIL;TYPE=INTERNET;TYPE=HOME:
+ADR;TYPE=HOME;charset=utf-8:;;;;;;
+ADR;TYPE=WORK;charset=utf-8:;;;;;;
+CATEGORIES;charset=utf-8:
+NOTE;charset=utf-8:
+END:VCARD
