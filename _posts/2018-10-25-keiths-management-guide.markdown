@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Keith's Management Guide"
-date:   2016-02-27 15:40:56
+date:   2018-10-25 16:21:56
 categories: management
 ---
 
