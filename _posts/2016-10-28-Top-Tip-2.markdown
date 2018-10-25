@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Top tip"
+date:   2016-10-28 07:00:00
+categories: tips
+---
+
+Top tip!
+
+* Sometimes it is ok to throw money at a problem.  Especially when travelling.
