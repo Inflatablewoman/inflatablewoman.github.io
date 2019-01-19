@@ -33,3 +33,6 @@ When asked a question, you start to give the answer but during the response the 
 
 ### Consultant Management
 You get asked a question. You pay a team of specialist consultants 5000€ to teach you how best to answer the question. They assure you that although they have never heard that particular question before, you are now equipped with the right tools to answer any question with trust, respect, honesty and high velocity. Whatever the question was, you always answer "agile". If the questioner doesn't accept that answer, tell them they are "anti-agile" and are not "agile enough" to understand the answer.  Advise them to go on a training course (with Lego).
+
+### Freelancer Management
+As a freelancer you get asked a question, you are paid by the hour so you keep repeating "it depends" for as long as possible.  When you finally see that the askers patience is running out, give the answer but make it so complicated that the questioner has to ask another question to find out what you meant...  and repeat.
